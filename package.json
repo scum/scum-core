@@ -1,0 +1,13 @@
+{
+  "name": "scum-core",
+  "dependencies": {
+    "babel": "^5.2.15",
+    "rethinkdb": "^2.0.0"
+  },
+  "scripts": {
+    "test": "NODE_ENV=test node_modules/.bin/mocha"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.4"
+  }
+}
